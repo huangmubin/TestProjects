@@ -13,6 +13,7 @@
 		9C3CCED91DC77CF900AB498E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C3CCED81DC77CF900AB498E /* Assets.xcassets */; };
 		9C3CCEDC1DC77CF900AB498E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3CCEDA1DC77CF900AB498E /* LaunchScreen.storyboard */; };
 		9C3CCEE41DC77D1100AB498E /* Explorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3CCEE31DC77D1100AB498E /* Explorer.swift */; };
+		B115C0E11DC8800B00BB0120 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B115C0E01DC8800B00BB0120 /* TableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9C3CCEDB1DC77CF900AB498E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C3CCEDD1DC77CF900AB498E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C3CCEE31DC77D1100AB498E /* Explorer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Explorer.swift; path = ../../../TechniqueTree/Codes/Library/Explorer.swift; sourceTree = "<group>"; };
+		B115C0E01DC8800B00BB0120 /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableView.swift; path = ../../../TechniqueTree/Codes/Library/UIKit/TableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				9C3CCEE51DC77D1200AB498E /* App */,
 				9C3CCEE31DC77D1100AB498E /* Explorer.swift */,
+				B115C0E01DC8800B00BB0120 /* TableView.swift */,
 			);
 			path = iOSTestProject;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C3CCEE41DC77D1100AB498E /* Explorer.swift in Sources */,
+				B115C0E11DC8800B00BB0120 /* TableView.swift in Sources */,
 				9C3CCED41DC77CF900AB498E /* ViewController.swift in Sources */,
 				9C3CCED21DC77CF900AB498E /* AppDelegate.swift in Sources */,
 			);
@@ -314,6 +318,7 @@
 				9C3CCEE21DC77CF900AB498E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

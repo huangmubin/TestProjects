@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="15G1004" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CoreDataExplorer" representedClassName=".CoreDataExplorer" isAbstract="YES" syncable="YES">
+        <attribute name="explorer_folder" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="explorer_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="explorer_time" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="DataBase" representedClassName=".DataBase" parentEntity="CoreDataExplorer" syncable="YES"/>
+    <elements>
+        <element name="CoreDataExplorer" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="DataBase" positionX="-54" positionY="18" width="128" height="45"/>
+    </elements>
+</model>
