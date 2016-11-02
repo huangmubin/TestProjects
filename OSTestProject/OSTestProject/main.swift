@@ -8,5 +8,15 @@
 
 import Foundation
 
-let size = Explorer.Size.KB["/Users/Myron/New/Tmp/"]
-print(size)
+
+let s = 10000.0
+let x = 1.1
+var v = s
+for y in 1 ..< 101 {
+//    for m in 0 ..< 12 {
+//        for d in 0 ..< 30 {
+            v *= x
+//        }
+//    }
+    print("第 \(y) 年: \(v)")
+}
