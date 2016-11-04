@@ -1,0 +1,5 @@
+#coding=utf-8
+
+ import urllib  # 网络库
+
+ 
