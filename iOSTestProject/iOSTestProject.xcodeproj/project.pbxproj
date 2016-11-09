@@ -14,6 +14,7 @@
 		9C3CCEDC1DC77CF900AB498E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3CCEDA1DC77CF900AB498E /* LaunchScreen.storyboard */; };
 		9C3CCEE41DC77D1100AB498E /* Explorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3CCEE31DC77D1100AB498E /* Explorer.swift */; };
 		B115C0E11DC8800B00BB0120 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B115C0E01DC8800B00BB0120 /* TableView.swift */; };
+		B15900831DD3094A00FE02FF /* Layouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15900821DD3094A00FE02FF /* Layouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9C3CCEDD1DC77CF900AB498E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C3CCEE31DC77D1100AB498E /* Explorer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Explorer.swift; path = ../../../TechniqueTree/Codes/Library/Explorer.swift; sourceTree = "<group>"; };
 		B115C0E01DC8800B00BB0120 /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableView.swift; path = ../../../TechniqueTree/Codes/Library/UIKit/TableView.swift; sourceTree = "<group>"; };
+		B15900821DD3094A00FE02FF /* Layouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Layouter.swift; path = ../../../TechniqueTree/Codes/Library/Layouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				9C3CCEE51DC77D1200AB498E /* App */,
 				9C3CCEE31DC77D1100AB498E /* Explorer.swift */,
+				B15900821DD3094A00FE02FF /* Layouter.swift */,
 				B115C0E01DC8800B00BB0120 /* TableView.swift */,
 			);
 			path = iOSTestProject;
@@ -105,7 +108,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = MuBinHuang;
 				TargetAttributes = {
 					9C3CCECD1DC77CF900AB498E = {
@@ -153,6 +156,7 @@
 			files = (
 				9C3CCEE41DC77D1100AB498E /* Explorer.swift in Sources */,
 				B115C0E11DC8800B00BB0120 /* TableView.swift in Sources */,
+				B15900831DD3094A00FE02FF /* Layouter.swift in Sources */,
 				9C3CCED41DC77CF900AB498E /* ViewController.swift in Sources */,
 				9C3CCED21DC77CF900AB498E /* AppDelegate.swift in Sources */,
 			);
@@ -198,6 +202,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -248,6 +253,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
