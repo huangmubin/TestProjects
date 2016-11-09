@@ -15,6 +15,7 @@
 		9C3CCEE41DC77D1100AB498E /* Explorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3CCEE31DC77D1100AB498E /* Explorer.swift */; };
 		B115C0E11DC8800B00BB0120 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B115C0E01DC8800B00BB0120 /* TableView.swift */; };
 		B15900831DD3094A00FE02FF /* Layouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15900821DD3094A00FE02FF /* Layouter.swift */; };
+		B15900891DD3242400FE02FF /* Notifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15900881DD3242400FE02FF /* Notifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9C3CCEE31DC77D1100AB498E /* Explorer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Explorer.swift; path = ../../../TechniqueTree/Codes/Library/Explorer.swift; sourceTree = "<group>"; };
 		B115C0E01DC8800B00BB0120 /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableView.swift; path = ../../../TechniqueTree/Codes/Library/UIKit/TableView.swift; sourceTree = "<group>"; };
 		B15900821DD3094A00FE02FF /* Layouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Layouter.swift; path = ../../../TechniqueTree/Codes/Library/Layouter.swift; sourceTree = "<group>"; };
+		B15900881DD3242400FE02FF /* Notifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Notifiers.swift; path = ../../../TechniqueTree/Codes/Library/Notifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				9C3CCEE31DC77D1100AB498E /* Explorer.swift */,
 				B15900821DD3094A00FE02FF /* Layouter.swift */,
 				B115C0E01DC8800B00BB0120 /* TableView.swift */,
+				B15900881DD3242400FE02FF /* Notifiers.swift */,
 			);
 			path = iOSTestProject;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C3CCEE41DC77D1100AB498E /* Explorer.swift in Sources */,
+				B15900891DD3242400FE02FF /* Notifiers.swift in Sources */,
 				B115C0E11DC8800B00BB0120 /* TableView.swift in Sources */,
 				B15900831DD3094A00FE02FF /* Layouter.swift in Sources */,
 				9C3CCED41DC77CF900AB498E /* ViewController.swift in Sources */,
