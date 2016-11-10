@@ -14,6 +14,8 @@
 		9C3CCEDC1DC77CF900AB498E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3CCEDA1DC77CF900AB498E /* LaunchScreen.storyboard */; };
 		9C3CCEE41DC77D1100AB498E /* Explorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3CCEE31DC77D1100AB498E /* Explorer.swift */; };
 		B115C0E11DC8800B00BB0120 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B115C0E01DC8800B00BB0120 /* TableView.swift */; };
+		B11DF8581DD459B00006DC25 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11DF8571DD459B00006DC25 /* View.swift */; };
+		B11DF85A1DD462390006DC25 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11DF8591DD462390006DC25 /* Button.swift */; };
 		B15900831DD3094A00FE02FF /* Layouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15900821DD3094A00FE02FF /* Layouter.swift */; };
 		B15900891DD3242400FE02FF /* Notifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15900881DD3242400FE02FF /* Notifiers.swift */; };
 /* End PBXBuildFile section */
@@ -28,6 +30,8 @@
 		9C3CCEDD1DC77CF900AB498E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C3CCEE31DC77D1100AB498E /* Explorer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Explorer.swift; path = ../../../TechniqueTree/Codes/Library/Explorer.swift; sourceTree = "<group>"; };
 		B115C0E01DC8800B00BB0120 /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableView.swift; path = ../../../TechniqueTree/Codes/Library/UIKit/TableView.swift; sourceTree = "<group>"; };
+		B11DF8571DD459B00006DC25 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = View.swift; path = ../../../TechniqueTree/Codes/Library/UIKit/View.swift; sourceTree = "<group>"; };
+		B11DF8591DD462390006DC25 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Button.swift; path = ../../../TechniqueTree/Codes/Library/UIKit/Button.swift; sourceTree = "<group>"; };
 		B15900821DD3094A00FE02FF /* Layouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Layouter.swift; path = ../../../TechniqueTree/Codes/Library/Layouter.swift; sourceTree = "<group>"; };
 		B15900881DD3242400FE02FF /* Notifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Notifiers.swift; path = ../../../TechniqueTree/Codes/Library/Notifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +71,8 @@
 				B15900821DD3094A00FE02FF /* Layouter.swift */,
 				B115C0E01DC8800B00BB0120 /* TableView.swift */,
 				B15900881DD3242400FE02FF /* Notifiers.swift */,
+				B11DF8571DD459B00006DC25 /* View.swift */,
+				B11DF8591DD462390006DC25 /* Button.swift */,
 			);
 			path = iOSTestProject;
 			sourceTree = "<group>";
@@ -160,8 +166,10 @@
 				9C3CCEE41DC77D1100AB498E /* Explorer.swift in Sources */,
 				B15900891DD3242400FE02FF /* Notifiers.swift in Sources */,
 				B115C0E11DC8800B00BB0120 /* TableView.swift in Sources */,
+				B11DF85A1DD462390006DC25 /* Button.swift in Sources */,
 				B15900831DD3094A00FE02FF /* Layouter.swift in Sources */,
 				9C3CCED41DC77CF900AB498E /* ViewController.swift in Sources */,
+				B11DF8581DD459B00006DC25 /* View.swift in Sources */,
 				9C3CCED21DC77CF900AB498E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
