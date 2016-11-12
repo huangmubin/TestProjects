@@ -1,5 +1,5 @@
 #coding=utf-8
 
- import urllib  # 网络库
+import urllib  # 网络库
 
- 
+objc = urllib.urlopen("https://objccn.io/issues/")  # 打开这个网页
