@@ -360,30 +360,39 @@ extension ChineseCalendar {
 
 // MARK: - Test
 
-//let form = DateFormatter()
-//form.dateFormat = "yyyy-MM-dd HH"
-//let date = form.date(from: "2016-11-11 12")!
-//print(date.timeIntervalSince1970)
-//print(form.string(from: date))
-////let cal = Calendar(identifier: Calendar.Identifier.chinese)
-//let cal = Calendar.current
-////print(cal.component(Calendar.Component.year, from: date))
-////print(cal.component(Calendar.Component.quarter, from: date))
-////print(cal.component(Calendar.Component.month, from: date))
-////print(cal.component(Calendar.Component.day, from: date))
+let form = DateFormatter()
+form.dateFormat = "yyyy-MM-dd HH"
+let date = form.date(from: "2016-11-16 12")!
+print(date.timeIntervalSince1970)
+print(form.string(from: date))
+//let cal = Calendar(identifier: Calendar.Identifier.chinese)
+let cal = Calendar.current
+
+var week: Date = Date()
+var intervalu: TimeInterval = 0
+let _ = cal.dateInterval(of: Calendar.Component.weekOfYear, start: &week, interval: &intervalu, for: date)
+print(form.string(from: week))
+
+
+//let ddd = cal.date(from: cal.dateComponents([.weekOfYear], from: date))
+//var eeee = Date()
+//var tttt = TimeInterval(0)
+//print(cal.dateInterval(of: Calendar.Component.weekOfYear, start: &eeee, interval: &tttt, for: date))
 //
-//let ddd = cal.date(from: cal.dateComponents([.year, .month, .day], from: date))
+//if #available(OSX 10.12, *) {
+//    let inter = cal.dateIntervalOfWeekend(containing: date)
+//    print(inter?.start ?? "nil")
+//} else {
+//    // Fallback on earlier versions
+//}
+//let time = Double(Int(date.timeIntervalSince1970 / 604800) * 604800)
+//print(form.string(from: Date(timeIntervalSince1970: time)))
 //
+//
+//print(form.string(from: eeee))
+//print(tttt)
 //print(ddd?.timeIntervalSince1970)
 //print(form.string(from: ddd!))
 //
 //print(ddd!.timeIntervalSince1970 - date.timeIntervalSince1970)
 
-
-let chinese = ChineseCalendar()
-let format = DateFormatter()
-format.dateFormat = "yyyy-MM-dd HH:mm:ss"
-for day in chinese.months(date: Date()) {
-    let date = Date(timeIntervalSince1970: day.timestamp)
-    print("\(format.string(from: date)); \(day.year)-\(day.month)-\(day.day); \(day.cYear)-\(day.cMonth)-\(day.cDay); \(day.sYear)-\(day.sZodiac)-\(day.sMonth)-\(day.sDay); \(day.isIntercalayMonth)")
-}
