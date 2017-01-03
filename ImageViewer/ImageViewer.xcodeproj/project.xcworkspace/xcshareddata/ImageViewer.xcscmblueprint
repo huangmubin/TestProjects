@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D82136D618E1B610D958219ACC3507F8A6FF8073",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4F55B6FA24E0F48A08C6DEB46AF62E36895F4AFB" : 9223372036854775807,
+    "D82136D618E1B610D958219ACC3507F8A6FF8073" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "69AAF0C4-F21F-4252-9308-AA84581E9A98",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4F55B6FA24E0F48A08C6DEB46AF62E36895F4AFB" : "TechniqueTree\/",
+    "D82136D618E1B610D958219ACC3507F8A6FF8073" : "TestProjects\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ImageViewer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ImageViewer\/ImageViewer.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/huangmubin\/TechniqueTree.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4F55B6FA24E0F48A08C6DEB46AF62E36895F4AFB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/huangmubin\/TestProjects.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D82136D618E1B610D958219ACC3507F8A6FF8073"
+    }
+  ]
+}

@@ -13,6 +13,13 @@
 		B12891001DC82F8700C275FB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12890FF1DC82F8700C275FB /* main.swift */; };
 		B12891071DC82FC600C275FB /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12891061DC82FC600C275FB /* Tools.swift */; };
 		B128910F1DC83EF700C275FB /* OSTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B128910E1DC83EF700C275FB /* OSTest.swift */; };
+		B12DC2471DFF81E50016A80A /* GroupNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12DC2411DFF81E50016A80A /* GroupNetwork.swift */; };
+		B12DC2481DFF81E50016A80A /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12DC2421DFF81E50016A80A /* JSON.swift */; };
+		B12DC2491DFF81E50016A80A /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12DC2431DFF81E50016A80A /* Network.swift */; };
+		B12DC24A1DFF81E50016A80A /* SimpleNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12DC2441DFF81E50016A80A /* SimpleNetwork.swift */; };
+		B12DC24B1DFF81E50016A80A /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12DC2451DFF81E50016A80A /* Socket.swift */; };
+		B12DC24C1DFF81E50016A80A /* SocketC.c in Sources */ = {isa = PBXBuildFile; fileRef = B12DC2461DFF81E50016A80A /* SocketC.c */; };
+		B12DC24E1DFF82770016A80A /* NetworkCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12DC24D1DFF82770016A80A /* NetworkCopy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +42,13 @@
 		B128910C1DC83EF700C275FB /* OSTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B128910E1DC83EF700C275FB /* OSTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSTest.swift; sourceTree = "<group>"; };
 		B12891101DC83EF700C275FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B12DC2411DFF81E50016A80A /* GroupNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupNetwork.swift; sourceTree = "<group>"; };
+		B12DC2421DFF81E50016A80A /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		B12DC2431DFF81E50016A80A /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		B12DC2441DFF81E50016A80A /* SimpleNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleNetwork.swift; sourceTree = "<group>"; };
+		B12DC2451DFF81E50016A80A /* Socket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		B12DC2461DFF81E50016A80A /* SocketC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SocketC.c; sourceTree = "<group>"; };
+		B12DC24D1DFF82770016A80A /* NetworkCopy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkCopy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +93,7 @@
 				B12890FF1DC82F8700C275FB /* main.swift */,
 				B12891061DC82FC600C275FB /* Tools.swift */,
 				B115C0951DC8412C00BB0120 /* Explorer.swift */,
+				B12DC2401DFF81E50016A80A /* Network */,
 			);
 			path = OSTestProject;
 			sourceTree = "<group>";
@@ -90,6 +105,21 @@
 				B12891101DC83EF700C275FB /* Info.plist */,
 			);
 			path = OSTest;
+			sourceTree = "<group>";
+		};
+		B12DC2401DFF81E50016A80A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B12DC2431DFF81E50016A80A /* Network.swift */,
+				B12DC24D1DFF82770016A80A /* NetworkCopy.swift */,
+				B12DC2411DFF81E50016A80A /* GroupNetwork.swift */,
+				B12DC2421DFF81E50016A80A /* JSON.swift */,
+				B12DC2441DFF81E50016A80A /* SimpleNetwork.swift */,
+				B12DC2451DFF81E50016A80A /* Socket.swift */,
+				B12DC2461DFF81E50016A80A /* SocketC.c */,
+			);
+			name = Network;
+			path = ../../../TechniqueTree/Codes/Library/Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,9 +214,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B12DC24B1DFF81E50016A80A /* Socket.swift in Sources */,
+				B12DC2471DFF81E50016A80A /* GroupNetwork.swift in Sources */,
+				B12DC2481DFF81E50016A80A /* JSON.swift in Sources */,
+				B12DC2491DFF81E50016A80A /* Network.swift in Sources */,
 				B115C0961DC8412C00BB0120 /* Explorer.swift in Sources */,
+				B12DC24A1DFF81E50016A80A /* SimpleNetwork.swift in Sources */,
 				B12891001DC82F8700C275FB /* main.swift in Sources */,
+				B12DC24E1DFF82770016A80A /* NetworkCopy.swift in Sources */,
 				B12891071DC82FC600C275FB /* Tools.swift in Sources */,
+				B12DC24C1DFF81E50016A80A /* SocketC.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
