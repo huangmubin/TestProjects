@@ -24,7 +24,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func success(_ sender: UIButton) {
-        
+        Prompt.show(view: view, type: PromptType.success(PromptShowSuccess(), text), time: 2, finish: {
+        })
     }
     @IBAction func error(_ sender: UIButton) {
         
